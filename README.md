@@ -39,8 +39,8 @@ where `A` is one of the [attributes](#attributes)
 |Logical type     |operation | syntax  | reduces to |
 |-----------------|---------|--------|------------|
 |Conjuction(and)  |`&&`     |`A && B`|            |
-|Disjunction(or)  |`||`     |`A || B`|            |
-|Joint Denial(nor)|`~|`     |`A ~| B`| `!(A || B)`|
+|Disjunction(or)  |&#124;&#124;     |A &#124;&#124; B|            |
+|Joint Denial(nor)|~&#124;     |A ~&#124; B| !(A &#124;&#124; B)|
 |Negation(not)    |`!`      |`!A`    |            |
 
 
@@ -59,3 +59,11 @@ Usage
 ```c
 #define TANK spec == "protection" || spec == "blood" || spec == "feralTank"
 ```
+
+# Interpret
+
+## Tokenization
+
+## parsing tree
+
+## Interpretation
